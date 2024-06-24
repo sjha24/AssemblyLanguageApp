@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql:3306/assemblydb
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: MYSQL
