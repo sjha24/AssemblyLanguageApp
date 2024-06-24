@@ -16,5 +16,33 @@
 This is a Spring Boot application that connects to a MySQL database and runs in Docker containers using Docker Compose.
 <hr>
 
+
+## Prerequisites
+
+- Docker
+- Docker Compose
+- Java 17 or later
+- Maven
+
+## Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/sjha24/AssemblyLanguageApp.git
+cd assembly-language-app
+```
+
+## Build the Application
+   - Before running the application, you need to build it using Maven.
+     ```
+     mvn clean install -DskipTests
+     ```
+
+## Building and Running the Containers
+  - Use Docker Compose to build and run the containers:
+  ```
+  docker compose up  
+  ```
 ![Screenshot (475)](https://github.com/sjha24/AssemblyLanguageApp/assets/98340874/658cbd68-fbaa-4493-b33f-0522248c4171)
 ![Screenshot (474)](https://github.com/sjha24/AssemblyLanguageApp/assets/98340874/5d1225d1-1849-4572-add4-dfcc45e712dc)
